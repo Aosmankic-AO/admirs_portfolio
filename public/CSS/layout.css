@@ -1,0 +1,153 @@
+/*
+=====================================================================
+*   Layout Stylesheet
+*   Admirs Portfolio
+*   8/30/2022
+=====================================================================
+
+===================================================================== */
+
+/* ------------------------------------------------------------------ */
+/* a. General Styles
+/* ------------------------------------------------------------------ */
+
+body { background: #000000; }
+ 
+/* ------------------------------------------------------------------ */
+/* b. Main Styles
+/* ------------------------------------------------------------------ */
+
+main {
+    position: relative;
+    width: 100%;
+    background: #376db4d4 no-repeat top center;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+ }
+
+ /* Header banner section */
+ main:before {
+    content: '';
+    display: inline-block;
+    vertical-align: middle;
+ }
+ main .banner {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+ }
+ 
+ main .banner-text { width: 100%; }
+ main .banner-text h1 {
+    font: 75px 'Poppins';
+    color: #fff;
+    letter-spacing: 10px;
+    margin: 0 auto 18px auto;
+    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
+ }
+ 
+ main .banner-text h3 {
+    color: #ffffff;
+    margin: 0 auto;
+    width: 70%;
+ }
+ main .banner-text h3 span,
+ main .banner-text h3 a {
+    color: #fff;
+ }
+
+ /* SKILLS */
+
+ .skills-container {
+   margin-bottom: 100px;
+   letter-spacing: 3px;
+}
+
+ .skills li {
+   list-style: none;
+   display: inline;
+
+ }
+
+ .subskills li {
+
+
+ }
+
+ #technologies {
+   font-size: 17px;
+   font-family: 'poppins';
+   color: yellow;
+ }
+
+ /* Links */
+
+ ul#nav li a {
+       display: inline-block;
+       padding: 8px 13px;
+       line-height: 32px;
+       text-decoration: none;
+       text-align: left;
+       color: #fff;
+       font-size: 15px;
+    }
+    
+
+
+ /* Navigation section */
+
+ #nav-wrap {
+   font: 12px 'opensans-bold', sans-serif;
+   width: 100%;
+   text-transform: uppercase;
+   letter-spacing: 2.5px;
+   z-index: 100;
+   left: 0;
+   top: 0;
+}
+
+#nav-wrap a:hover {
+   color: black;
+   cursor: pointer;
+}
+
+ ul#nav li {
+   position: relative;
+   list-style: none;
+   height: 200px;
+   display: inline-block;
+}
+
+
+
+/* social media icons */
+
+.social {
+   margin: 25px 30px;
+   font-size: 50px;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+
+.social a {
+   padding: 30px;
+   color:#fff;
+}
+
+.social a:hover{
+color: black;
+cursor: pointer;
+}
+
+/** IMAGES **/
+.profile-pic {
+   vertical-align: middle;
+   width: 250px;
+   height: 300px;
+   border-radius: 50%;
+   margin: 40px;
+   
+}

@@ -1,0 +1,45 @@
+/*
+=====================================================================
+*   Default Stylesheet
+*   Admirs Portfolio
+*   8/30/2022
+=====================================================================
+TOC:
+a. Icon / Font imports
+b. Default Styles
+   1. Basic
+   2. Typography
+   3. Links
+   4. Images
+   5. Buttons
+   6. Forms
+c. Grid
+d. Others
+   1. Clearing
+   2. Misc
+=====================================================================  */
+
+/* ------------------------------------------------------------------ */
+/* a. Icon / Font imports
+ ------------------------------------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+
+/* ------------------------------------------------------------------ */
+/* a. Default styling
+ ------------------------------------------------------------------ */
+
+
+ * {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   outline: 0;
+   vertical-align: baseline;
+   font-family:'Roboto';
+}
+
+
+
+
