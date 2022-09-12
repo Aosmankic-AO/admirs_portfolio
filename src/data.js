@@ -1,6 +1,10 @@
-import logo from './images/CSS.png'
 
 let data = {
+
+  "imagebaseurl":"https://rbhatia46.github.io/",
+  "name": "Admir Osmankic",
+  "linkedinId":"https://www.linkedin.com/in/admirosmankic/",
+
 
   ////////////////////////////////////////
   "socialLinks":[
@@ -95,6 +99,10 @@ let data = {
     {
       "skillname":"npm ",
       "imgurl": require("./images/npm.png")
+    },
+    {
+      "skillname":"linode ",
+      "imgurl": require("./images/Linode.png")
     }
   ],
 
@@ -103,6 +111,14 @@ let data = {
     {
       "name": "profile",
       "imgurl": require("./images/profilepic.jpg")
+    }
+  ],
+
+  ////////////////////////////////////////////
+  "Contact":[
+    {
+      "name": "send",
+      "imgurl": require("https://img.icons8.com/external-bearicons-glyph-bearicons/64/000000/external-Send-email-bearicons-glyph-bearicons.png")
     }
   ],
 }

@@ -8,13 +8,13 @@
 ===================================================================== */
 
 /* ------------------------------------------------------------------ */
-/* a. General Styles
+/* General Styles
 /* ------------------------------------------------------------------ */
 
 body { background: #000000; }
  
 /* ------------------------------------------------------------------ */
-/* b. Main Styles
+/*  Main Styles
 /* ------------------------------------------------------------------ */
 
 main {
@@ -151,3 +151,63 @@ cursor: pointer;
    margin: 40px;
    
 }
+
+/* ------------------------------------------------------------------ */
+/* CONTACT PAGE
+/* ------------------------------------------------------------------ */
+
+.button {
+    
+}
+
+.contact-form{
+   padding: 0 3rem 0 3rem;
+   display: flex;
+   height: 80vh;
+   margin-top: 4rem;
+     /* scroll */
+ padding-top: 3rem;
+}
+
+.form-container{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   flex: 1;
+}
+
+.form-container>form
+{
+   display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+   
+}
+
+.form-container .user{
+   width: 20rem;
+   height: 2rem;
+   padding: 0.3em;
+   outline: none;
+   border: 2px solid var(--orange);
+   border-radius: 8px;
+   font-size: 16px;   
+}
+
+textarea{
+   height: 4rem!important;
+}
+
+@media screen and (max-width: 480px) {
+   .contact-form{
+       padding: 0;
+       flex-direction: column;
+       gap: 5rem;
+       height: 40rem;
+   }
+   .form-container .user{
+       width: 16rem;
+   }
+
+}   
